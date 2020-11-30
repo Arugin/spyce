@@ -343,7 +343,7 @@ def main():
     get_planets_physics(bodies)
     for planet in [
         'Mercury', 'Venus', 'Earth', 'Mars', 'Jupiter', 'Saturn', 'Uranus',
-        'Neptune', 'Pluto',
+        'Neptune', 'Pluto', 
     ]:
         get_more_physics(bodies, planet)
 
@@ -358,7 +358,7 @@ def main():
     get_moons_orbits(bodies)
 
     print('Loading dwarf planets data')
-    dwarf_planets = ['Ceres', 'Pluto', 'Sedna', 'Haumea', 'Makemake', 'Eris']
+    dwarf_planets = ['Ceres', 'Pluto', 'Sedna', 'Haumea', 'Makemake', 'Eris', 'Orcus', 'Quaoar', 'Gonggong']
     for dwarf_planet in dwarf_planets:
         get_dwarf_planet_data(bodies, dwarf_planet)
 
